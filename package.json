@@ -17,10 +17,7 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "test": "craco test",
-    "build:css": "tailwindcss build src/tailwind.css -o src/global.css",
-    "xprestart": "yarn build:css",
-    "xprebuild": "NODE_ENV=production yarn build:css"
+    "test": "craco test"
   },
   "eslintConfig": {
     "extends": "react-app"
